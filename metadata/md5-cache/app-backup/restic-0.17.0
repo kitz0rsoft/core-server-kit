@@ -1,0 +1,14 @@
+BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sys-fs/fuse:0
+DESCRIPTION=A backup program that is fast, efficient and secure
+EAPI=7
+HOMEPAGE=https://restic.github.io/
+KEYWORDS=*
+LICENSE=Apache-2.0 BSD BSD-2 LGPL-3-with-linking-exception MIT
+RDEPEND=sys-fs/fuse:0
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/restic/restic/tarball/7577c6d1bb11082fbdb311303fd802ab3428cde8 -> restic-0.17.0-7577c6d.tar.gz https://regen.mordor/e4/38/69/e438692e9aa9424a539b9e5bc7e5bfbf54200229abb7721478e9a318248280673dfb99122a2d2ae3f18318837df2608ff06088c1b211edf9cf72037251a83c63 -> restic-0.17.0-funtoo-go-bundle-dabbce6487c9ea6d9ccb13b297b4273d713b23388571f8bb222155f21674e4df1c9b1dfd084b8f9617f8018fdacf1ec9d2e50108d09f691247f1d94a6bbd1caa.tar.gz
+_eclasses_=bash-completion-r1	47a7402d95930413ce25ba8d857339bb	go-module	cb10a443c46556a15ed035d7a99128e8	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=389e2f9c6c5cfc45106b2a2aba6bcda5
