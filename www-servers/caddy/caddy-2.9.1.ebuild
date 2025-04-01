@@ -791,7 +791,7 @@ go-module_set_globals
 DESCRIPTION="Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS"
 HOMEPAGE="https://caddyserver.com/ https://github.com/caddyserver/caddy"
 SRC_URI="https://github.com/caddyserver/caddy/tarball/e2e2a52b0b536e4c79ae126fd096de16f857d283 -> caddy-2.9.1-e2e2a52.tar.gz
-https://distfiles.macaronios.org/ac/49/21/ac4921fc97d2d3a55b854f162618a2be6397a1b8990aa68cdf2ac054e2b28425c4f779a6ee3e7775eeeb4deb7e023db32d31fc9dd3e4702dbadd67bd67697204 -> caddy-2.9.1-funtoo-go-bundle-08fc9820a9876a378a60b0f835a2906b41cc3c01ebf3500f59763edf3aa460f8520beb7b1ca11fee9ba27a39b88e39ba20ed8bcb7a82ff58e4210f90920b77cd.tar.gz"
+https://regen.mordor/2c/04/f6/2c04f65ffa130e10b99511f2732970e9708169e0541157984e590632685e5c46db4603641a8f1521ea47855daa749007f4e257ae46d048d182243c8687d5ece2 -> caddy-2.9.1-funtoo-go-bundle-08fc9820a9876a378a60b0f835a2906b41cc3c01ebf3500f59763edf3aa460f8520beb7b1ca11fee9ba27a39b88e39ba20ed8bcb7a82ff58e4210f90920b77cd.tar.gz"
 
 LICENSE="Apache-2.0 BSD ECL-2.0 MIT"
 SLOT="0"
