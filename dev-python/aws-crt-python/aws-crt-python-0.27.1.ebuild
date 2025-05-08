@@ -14,7 +14,7 @@ SRC_URI="
 	https://github.com/awslabs/aws-c-common/tarball/8ae8f48ebddb0ee2624d643952ac33afa5e8859e -> aws-c-common-0.12.2-8ae8f48.tar.gz
 	https://github.com/awslabs/aws-c-compression/tarball/f951ab2b819fc6993b6e5e6cfef64b1a1554bfc8 -> aws-c-compression-0.3.1-f951ab2.tar.gz
 	https://github.com/awslabs/aws-c-event-stream/tarball/9312b052583183b98526aaeb91e5c72ec3db9627 -> aws-c-event-stream-0.5.4-9312b05.tar.gz
-	https://github.com/awslabs/aws-c-http/tarball/ca7e0e291933ad9dac855e1477c558254363ff6a -> aws-c-http-0.10.0-ca7e0e2.tar.gz
+	https://github.com/awslabs/aws-c-http/tarball/3eedf1ef8c6874cd941dbde794a6ab3bd979e181 -> aws-c-http-0.10.1-3eedf1e.tar.gz
 	https://github.com/awslabs/aws-c-io/tarball/8286c781b95b426ca2f0783b6c1fe49ff519c4e7 -> aws-c-io-0.19.0-8286c78.tar.gz
 	https://github.com/awslabs/aws-c-mqtt/tarball/9fc2f573c0fb608c052230d4f2495725d7252285 -> aws-c-mqtt-0.13.0-9fc2f57.tar.gz
 	https://github.com/awslabs/aws-c-s3/tarball/7d2d4b3070109c882ff78e8719f60597c7ba0472 -> aws-c-s3-0.7.17-7d2d4b3.tar.gz
