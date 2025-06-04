@@ -21,7 +21,7 @@ SRC_URI="
 	https://github.com/awslabs/aws-c-sdkutils/tarball/f678bda9e21f7217e4bbf35e0d1ea59540687933 -> aws-c-sdkutils-0.2.4-f678bda.tar.gz
 	https://github.com/awslabs/aws-checksums/tarball/9978ba2c33a7a259c1a6bd0f62abe26827d03b85 -> aws-checksums-0.2.7-9978ba2.tar.gz
 	https://github.com/awslabs/aws-lc/tarball/d6ade6ae1537adfff53c0f0489b99ba1a111f0cc -> aws-lc-1.52.1-d6ade6a.tar.gz
-	https://github.com/aws/s2n-tls/tarball/e12a1fe905dee789881d83af486dad5907cc7f67 -> s2n-tls-1.5.20-e12a1fe.tar.gz
+	https://github.com/aws/s2n-tls/tarball/a772605d27afcb62c0e0d1ee92f9003cb11ca8ef -> s2n-tls-1.5.21-a772605.tar.gz
 "
 
 LICENSE="Apache-2.0"
