@@ -8,11 +8,11 @@ inherit autotools linux-info python-any-r1 systemd
 DESCRIPTION="An enhanced multi-threaded syslogd with database support and more"
 HOMEPAGE="https://www.rsyslog.com/"
 SRC_URI="
-	https://github.com/rsyslog/rsyslog/tarball/53c8bd9387ea16b5fa992075136daa2f52ab964d -> rsyslog-8.2504.0-53c8bd9.tar.gz
-	src? ( https://github.com/rsyslog/rsyslog/tarball/53c8bd9387ea16b5fa992075136daa2f52ab964d -> rsyslog-8.2504.0-53c8bd9.tar.gz )
+	https://github.com/rsyslog/rsyslog/tarball/50a6737e52a801f930c3c476c2d1f472297923a0 -> rsyslog-8.2506.0-50a6737.tar.gz
+	src? ( https://github.com/rsyslog/rsyslog/tarball/50a6737e52a801f930c3c476c2d1f472297923a0 -> rsyslog-8.2506.0-50a6737.tar.gz )
 
 	
-	doc? ( https://github.com/rsyslog/rsyslog-doc/tarball/016fd521bbbff65704e298269799871eb9b5d3c5 -> rsyslog-doc-8.2504.0-016fd52.tar.gz )
+	doc? ( https://github.com/rsyslog/rsyslog-doc/tarball/1daad521d1c1eda2d1237632499452aa4462bb61 -> rsyslog-doc-8.2506.0-1daad52.tar.gz )
 "
 
 KEYWORDS="*"
@@ -99,14 +99,14 @@ pkg_setup() {
 }
 
 src_unpack() {
-	unpack rsyslog-8.2504.0-53c8bd9.tar.gz || die "Failed to unpack source tarball"
+	unpack rsyslog-8.2506.0-50a6737.tar.gz || die "Failed to unpack source tarball"
 	mv rsyslog-rsyslog* "${S}" || die "Failed to rename unpacked source to '${S}'"
 
 	if use doc; then
 		cd "${S}" || die "Cannot change dir into '${S}'"
 		mkdir docs || die "Failed to create docs directory"
 		cd docs || die "Failed to change dir into '${S}/docs'"
-		unpack rsyslog-doc-8.2504.0-016fd52.tar.gz || die "Failed to unpack docs tarball"
+		unpack rsyslog-doc-8.2506.0-1daad52.tar.gz || die "Failed to unpack docs tarball"
 		mv rsyslog-* ${PN}-doc-${PV} || die "Failed to move unpacked docs"
 	fi
 }
