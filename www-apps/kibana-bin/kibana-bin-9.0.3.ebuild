@@ -9,8 +9,8 @@ MY_PN="${PN%-bin}"
 DESCRIPTION="Analytics and search dashboard for Elasticsearch"
 HOMEPAGE="https://www.elastic.co/products/kibana"
 SRC_URI="
-	amd64? ( https://artifacts.elastic.co/downloads/kibana/kibana-9.0.2-linux-x86_64.tar.gz -> kibana-9.0.2-linux-x86_64.tar.gz )
-	arm64? ( https://artifacts.elastic.co/downloads/kibana/kibana-9.0.2-linux-aarch64.tar.gz -> kibana-9.0.2-linux-aarch64.tar.gz )
+	amd64? ( https://artifacts.elastic.co/downloads/kibana/kibana-9.0.3-linux-x86_64.tar.gz -> kibana-9.0.3-linux-x86_64.tar.gz )
+	arm64? ( https://artifacts.elastic.co/downloads/kibana/kibana-9.0.3-linux-aarch64.tar.gz -> kibana-9.0.3-linux-aarch64.tar.gz )
 "
 
 # source: LICENSE.txt and NOTICE.txt
@@ -21,7 +21,7 @@ KEYWORDS="-* amd64 arm64"
 IUSE="systemd"
 
 RDEPEND="
-	>=net-libs/nodejs-20.18.2
+	>=net-libs/nodejs-20.19.2
 	=net-libs/nodejs-20*
 	dev-libs/nss
 "
@@ -45,7 +45,7 @@ pkg_setup() {
 
 post_src_unpack() {
 	if [ ! -d "${S}" ]; then
-		mv kibana-9.0.2 "${S}" || die
+		mv kibana-9.0.3 "${S}" || die
 	fi
 }
 
