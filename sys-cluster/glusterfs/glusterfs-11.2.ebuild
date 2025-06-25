@@ -8,7 +8,7 @@ inherit autotools elisp-common python-single-r1 user tmpfiles bash-completion-r1
 
 DESCRIPTION="GlusterFS is a powerful network/cluster filesystem"
 HOMEPAGE="https://www.gluster.org/ https://github.com/gluster/glusterfs/"
-SRC_URI="https://github.com/gluster/glusterfs/tarball/17872ca35668e7385b2af64b89ec94188fd85ca3 -> glusterfs-11.1-17872ca.tar.gz"
+SRC_URI="https://github.com/gluster/glusterfs/tarball/744c3be74b22dde775ad61972f81ab44c2e52d18 -> glusterfs-11.2-744c3be.tar.gz"
 
 LICENSE="|| ( GPL-2 LGPL-3+ )"
 SLOT="0/${PV%%.*}"
@@ -66,7 +66,7 @@ BDEPEND="
 
 DOCS=( AUTHORS ChangeLog NEWS README.md THANKS )
 
-S="${WORKDIR}/gluster-glusterfs-17872ca"
+S="${WORKDIR}/gluster-glusterfs-744c3be"
 
 # Maintainer notes:
 # * The build system will always configure & build argp-standalone but it'll never use it
