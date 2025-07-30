@@ -7,7 +7,7 @@ inherit cargo user
 DESCRIPTION="A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow"
 HOMEPAGE="https://www.meilisearch.com/"
 SRC_URI="https://github.com/meilisearch/meilisearch/tarball/6b4d69996ce9c1e0d0b8d52af2fcea4a5750bfa7 -> meilisearch-1.15.2-6b4d699.tar.gz
-https://regen.mordor/23/5e/01/235e011cb2fc8d33a6990234c67a182a9b4af93ee07dc4fa0948d4151de08ca4453959e7bd1260d6bdd354537c1ee9c606f836a600f73a6e8232a2966d8ef1f5 -> meilisearch-1.15.2-funtoo-crates-bundle-cabb68e2e10649c2a05accaaea6a80e5384165f7356992d0a5918f97579718b8f8c200e73f21ac766c375fc7e1fcd8e9dc148a963cf0ff0d85189c42e46f4244.tar.gz"
+https://regen.mordor/b6/a1/1f/b6a11facc11ea42aeec9423df142b3b807dcff36bac39727ba688fb862f55c89674e73c3ffdb562ff3645fa991e3dc0207757b7810c4cf9a203f458a5636e3dd -> meilisearch-1.15.2-funtoo-crates-bundle-cabb68e2e10649c2a05accaaea6a80e5384165f7356992d0a5918f97579718b8f8c200e73f21ac766c375fc7e1fcd8e9dc148a963cf0ff0d85189c42e46f4244.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
